@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5F853E25CEE4CE00084C72 /* IHProgressHUD+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */; };
 		DCE32CA625CEBC5600D9AD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CA525CEBC5600D9AD8F /* AppDelegate.swift */; };
-		DCE32CA825CEBC5600D9AD8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CA725CEBC5600D9AD8F /* SceneDelegate.swift */; };
 		DCE32CAA25CEBC5600D9AD8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CA925CEBC5600D9AD8F /* ViewController.swift */; };
 		DCE32CAD25CEBC5600D9AD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CAB25CEBC5600D9AD8F /* Main.storyboard */; };
 		DCE32CB025CEBC5600D9AD8F /* Notiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CAE25CEBC5600D9AD8F /* Notiz.xcdatamodeld */; };
@@ -19,18 +19,54 @@
 		DCE32CC725CED62700D9AD8F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */; };
 		DCE32CC925CED62700D9AD8F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC825CED62700D9AD8F /* FirebaseAuth */; };
 		DCE32CCB25CED62700D9AD8F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */; };
+		DCE32CDF25CED87500D9AD8F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CDE25CED87500D9AD8F /* Colors.xcassets */; };
+		DCE32CE525CED8FE00D9AD8F /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CE425CED8FE00D9AD8F /* String+Extention.swift */; };
+		DCE32CE925CED9C800D9AD8F /* UIButton+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CE825CED9C800D9AD8F /* UIButton+Extentions.swift */; };
+		DCE32CED25CEDA6C00D9AD8F /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */; };
+		DCE32CF025CEDB0A00D9AD8F /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */; };
+		DCE32CF425CEDB8400D9AD8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CF325CEDB8400D9AD8F /* Constants.swift */; };
+		DCE32CF725CEDBDE00D9AD8F /* NotificationObserverNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CF625CEDBDE00D9AD8F /* NotificationObserverNames.swift */; };
+		DCE32CFF25CEE07A00D9AD8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */; };
+		DCE32D1425CEE1C800D9AD8F /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */; };
+		DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */; };
+		DCE32D1625CEE1C800D9AD8F /* FontsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */; };
+		DCE32D1725CEE1C800D9AD8F /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0625CEE1C800D9AD8F /* ThemeProtocol.swift */; };
+		DCE32D1825CEE1C800D9AD8F /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0925CEE1C800D9AD8F /* LightTheme.swift */; };
+		DCE32D1925CEE1C800D9AD8F /* LightThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0B25CEE1C800D9AD8F /* LightThemeColors.swift */; };
+		DCE32D1A25CEE1C800D9AD8F /* LightThemeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0D25CEE1C800D9AD8F /* LightThemeFonts.swift */; };
+		DCE32D1B25CEE1C800D9AD8F /* DarkThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D1025CEE1C800D9AD8F /* DarkThemeColors.swift */; };
+		DCE32D1C25CEE1C800D9AD8F /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D1125CEE1C800D9AD8F /* DarkTheme.swift */; };
+		DCE32D1D25CEE1C800D9AD8F /* DarkThemeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D1325CEE1C800D9AD8F /* DarkThemeFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IHProgressHUD+Extention.swift"; sourceTree = "<group>"; };
 		DCE32CA225CEBC5600D9AD8F /* Notiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE32CA525CEBC5600D9AD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCE32CA725CEBC5600D9AD8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCE32CA925CEBC5600D9AD8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCE32CAC25CEBC5600D9AD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCE32CAF25CEBC5600D9AD8F /* Notiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notiz.xcdatamodel; sourceTree = "<group>"; };
 		DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE32CB425CEBC5700D9AD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE32CB625CEBC5700D9AD8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE32CDE25CED87500D9AD8F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DCE32CE425CED8FE00D9AD8F /* String+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extention.swift"; sourceTree = "<group>"; };
+		DCE32CE825CED9C800D9AD8F /* UIButton+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extentions.swift"; sourceTree = "<group>"; };
+		DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
+		DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		DCE32CF325CEDB8400D9AD8F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DCE32CF625CEDBDE00D9AD8F /* NotificationObserverNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserverNames.swift; sourceTree = "<group>"; };
+		DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsProtocol.swift; sourceTree = "<group>"; };
+		DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsProtocol.swift; sourceTree = "<group>"; };
+		DCE32D0625CEE1C800D9AD8F /* ThemeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		DCE32D0925CEE1C800D9AD8F /* LightTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		DCE32D0B25CEE1C800D9AD8F /* LightThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightThemeColors.swift; sourceTree = "<group>"; };
+		DCE32D0D25CEE1C800D9AD8F /* LightThemeFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightThemeFonts.swift; sourceTree = "<group>"; };
+		DCE32D1025CEE1C800D9AD8F /* DarkThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkThemeColors.swift; sourceTree = "<group>"; };
+		DCE32D1125CEE1C800D9AD8F /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		DCE32D1325CEE1C800D9AD8F /* DarkThemeFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkThemeFonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,16 +104,202 @@
 		DCE32CA425CEBC5600D9AD8F /* Notiz */ = {
 			isa = PBXGroup;
 			children = (
-				DCE32CA525CEBC5600D9AD8F /* AppDelegate.swift */,
-				DCE32CA725CEBC5600D9AD8F /* SceneDelegate.swift */,
-				DCE32CA925CEBC5600D9AD8F /* ViewController.swift */,
+				DCE32CF925CEDC2900D9AD8F /* Modules */,
+				DCE32CF225CEDB6D00D9AD8F /* Shared */,
+				DCE32CE325CED8D700D9AD8F /* Extentions */,
+				DCE32CE225CED8A400D9AD8F /* DesignSystem */,
+				DCE32CE125CED89E00D9AD8F /* Helper */,
+				DCE32CCF25CED7EC00D9AD8F /* Application */,
+				DCE32CCE25CED7BB00D9AD8F /* Resources */,
+				DCE32CCD25CED79800D9AD8F /* Configurations */,
 				DCE32CAB25CEBC5600D9AD8F /* Main.storyboard */,
-				DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */,
-				DCE32CB325CEBC5700D9AD8F /* LaunchScreen.storyboard */,
-				DCE32CB625CEBC5700D9AD8F /* Info.plist */,
 				DCE32CAE25CEBC5600D9AD8F /* Notiz.xcdatamodeld */,
 			);
 			path = Notiz;
+			sourceTree = "<group>";
+		};
+		DCE32CCD25CED79800D9AD8F /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */,
+				DCE32CB625CEBC5700D9AD8F /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		DCE32CCE25CED7BB00D9AD8F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CD225CED83800D9AD8F /* Images-GIFs */,
+				DCE32CD525CED84300D9AD8F /* Colors */,
+				DCE32CDA25CED85D00D9AD8F /* Audio */,
+				DCE32CD725CED85800D9AD8F /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DCE32CCF25CED7EC00D9AD8F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CA525CEBC5600D9AD8F /* AppDelegate.swift */,
+				DCE32CB325CEBC5700D9AD8F /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DCE32CD225CED83800D9AD8F /* Images-GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */,
+			);
+			path = "Images-GIFs";
+			sourceTree = "<group>";
+		};
+		DCE32CD525CED84300D9AD8F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CDE25CED87500D9AD8F /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		DCE32CD725CED85800D9AD8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DCE32CDA25CED85D00D9AD8F /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		DCE32CE125CED89E00D9AD8F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CF325CEDB8400D9AD8F /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DCE32CE225CED8A400D9AD8F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0125CEE1C800D9AD8F /* Manager */,
+				DCE32D0725CEE1C800D9AD8F /* Themes */,
+				DCE32D0325CEE1C800D9AD8F /* Models */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		DCE32CE325CED8D700D9AD8F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CE425CED8FE00D9AD8F /* String+Extention.swift */,
+				DCE32CE825CED9C800D9AD8F /* UIButton+Extentions.swift */,
+				DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */,
+				DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */,
+				DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		DCE32CF225CEDB6D00D9AD8F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CF625CEDBDE00D9AD8F /* NotificationObserverNames.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DCE32CF925CEDC2900D9AD8F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32CA925CEBC5600D9AD8F /* ViewController.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		DCE32D0125CEE1C800D9AD8F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		DCE32D0325CEE1C800D9AD8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */,
+				DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */,
+				DCE32D0625CEE1C800D9AD8F /* ThemeProtocol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DCE32D0725CEE1C800D9AD8F /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0825CEE1C800D9AD8F /* Light */,
+				DCE32D0E25CEE1C800D9AD8F /* Dark */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		DCE32D0825CEE1C800D9AD8F /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0925CEE1C800D9AD8F /* LightTheme.swift */,
+				DCE32D0A25CEE1C800D9AD8F /* Colors */,
+				DCE32D0C25CEE1C800D9AD8F /* Fonts */,
+			);
+			path = Light;
+			sourceTree = "<group>";
+		};
+		DCE32D0A25CEE1C800D9AD8F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0B25CEE1C800D9AD8F /* LightThemeColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		DCE32D0C25CEE1C800D9AD8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D0D25CEE1C800D9AD8F /* LightThemeFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DCE32D0E25CEE1C800D9AD8F /* Dark */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D1125CEE1C800D9AD8F /* DarkTheme.swift */,
+				DCE32D0F25CEE1C800D9AD8F /* Colors */,
+				DCE32D1225CEE1C800D9AD8F /* Fonts */,
+			);
+			path = Dark;
+			sourceTree = "<group>";
+		};
+		DCE32D0F25CEE1C800D9AD8F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D1025CEE1C800D9AD8F /* DarkThemeColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		DCE32D1225CEE1C800D9AD8F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DCE32D1325CEE1C800D9AD8F /* DarkThemeFonts.swift */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +372,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */,
+				DCE32CDF25CED87500D9AD8F /* Colors.xcassets in Resources */,
+				DCE32CFF25CEE07A00D9AD8F /* GoogleService-Info.plist in Resources */,
 				DCE32CB225CEBC5700D9AD8F /* Assets.xcassets in Resources */,
 				DCE32CAD25CEBC5600D9AD8F /* Main.storyboard in Resources */,
 			);
@@ -162,10 +386,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE32CED25CEDA6C00D9AD8F /* UIColor+Extention.swift in Sources */,
+				DCE32CE925CED9C800D9AD8F /* UIButton+Extentions.swift in Sources */,
 				DCE32CAA25CEBC5600D9AD8F /* ViewController.swift in Sources */,
+				DCE32D1925CEE1C800D9AD8F /* LightThemeColors.swift in Sources */,
+				DCE32CF025CEDB0A00D9AD8F /* UIView+Extention.swift in Sources */,
+				DCE32D1A25CEE1C800D9AD8F /* LightThemeFonts.swift in Sources */,
+				DCE32CE525CED8FE00D9AD8F /* String+Extention.swift in Sources */,
+				DCE32D1D25CEE1C800D9AD8F /* DarkThemeFonts.swift in Sources */,
+				DCE32CF725CEDBDE00D9AD8F /* NotificationObserverNames.swift in Sources */,
 				DCE32CA625CEBC5600D9AD8F /* AppDelegate.swift in Sources */,
+				DCE32D1425CEE1C800D9AD8F /* DesignSystem.swift in Sources */,
 				DCE32CB025CEBC5600D9AD8F /* Notiz.xcdatamodeld in Sources */,
-				DCE32CA825CEBC5600D9AD8F /* SceneDelegate.swift in Sources */,
+				DC5F853E25CEE4CE00084C72 /* IHProgressHUD+Extention.swift in Sources */,
+				DCE32CF425CEDB8400D9AD8F /* Constants.swift in Sources */,
+				DCE32D1B25CEE1C800D9AD8F /* DarkThemeColors.swift in Sources */,
+				DCE32D1C25CEE1C800D9AD8F /* DarkTheme.swift in Sources */,
+				DCE32D1625CEE1C800D9AD8F /* FontsProtocol.swift in Sources */,
+				DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */,
+				DCE32D1825CEE1C800D9AD8F /* LightTheme.swift in Sources */,
+				DCE32D1725CEE1C800D9AD8F /* ThemeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +553,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = MLM8YK22VB;
-				INFOPLIST_FILE = Notiz/Info.plist;
+				INFOPLIST_FILE = Notiz/Configurations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramysabry1996.Notiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -332,12 +575,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = MLM8YK22VB;
-				INFOPLIST_FILE = Notiz/Info.plist;
+				INFOPLIST_FILE = Notiz/Configurations/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramysabry1996.Notiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
