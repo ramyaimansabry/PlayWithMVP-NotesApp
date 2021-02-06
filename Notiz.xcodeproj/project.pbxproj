@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,11 @@
 		DCE32CB025CEBC5600D9AD8F /* Notiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CAE25CEBC5600D9AD8F /* Notiz.xcdatamodeld */; };
 		DCE32CB225CEBC5700D9AD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */; };
 		DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CB325CEBC5700D9AD8F /* LaunchScreen.storyboard */; };
+		DCE32CBF25CEC45900D9AD8F /* IHProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CBE25CEC45900D9AD8F /* IHProgressHUD */; };
+		DCE32CC325CEC4BE00D9AD8F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC225CEC4BE00D9AD8F /* IQKeyboardManagerSwift */; };
+		DCE32CC725CED62700D9AD8F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */; };
+		DCE32CC925CED62700D9AD8F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC825CED62700D9AD8F /* FirebaseAuth */; };
+		DCE32CCB25CED62700D9AD8F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE32CBF25CEC45900D9AD8F /* IHProgressHUD in Frameworks */,
+				DCE32CC325CEC4BE00D9AD8F /* IQKeyboardManagerSwift in Frameworks */,
+				DCE32CC725CED62700D9AD8F /* FirebaseAnalytics in Frameworks */,
+				DCE32CCB25CED62700D9AD8F /* FirebaseFirestore in Frameworks */,
+				DCE32CC925CED62700D9AD8F /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +96,13 @@
 			dependencies = (
 			);
 			name = Notiz;
+			packageProductDependencies = (
+				DCE32CBE25CEC45900D9AD8F /* IHProgressHUD */,
+				DCE32CC225CEC4BE00D9AD8F /* IQKeyboardManagerSwift */,
+				DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */,
+				DCE32CC825CED62700D9AD8F /* FirebaseAuth */,
+				DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */,
+			);
 			productName = Notiz;
 			productReference = DCE32CA225CEBC5600D9AD8F /* Notiz.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +130,11 @@
 				Base,
 			);
 			mainGroup = DCE32C9925CEBC5600D9AD8F;
+			packageReferences = (
+				DCE32CBD25CEC45900D9AD8F /* XCRemoteSwiftPackageReference "IHProgressHUD" */,
+				DCE32CC125CEC4BE00D9AD8F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DCE32CA325CEBC5600D9AD8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -345,6 +367,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DCE32CBD25CEC45900D9AD8F /* XCRemoteSwiftPackageReference "IHProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AsadAzam/IHProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		DCE32CC125CEC4BE00D9AD8F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.6;
+			};
+		};
+		DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DCE32CBE25CEC45900D9AD8F /* IHProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE32CBD25CEC45900D9AD8F /* XCRemoteSwiftPackageReference "IHProgressHUD" */;
+			productName = IHProgressHUD;
+		};
+		DCE32CC225CEC4BE00D9AD8F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE32CC125CEC4BE00D9AD8F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DCE32CC825CED62700D9AD8F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DCE32CAE25CEBC5600D9AD8F /* Notiz.xcdatamodeld */ = {
