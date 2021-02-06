@@ -3,6 +3,7 @@ import UIKit
 
 
 class DarkThemeColors: ColorsProtocol {
-    var primaryColor: UIColor = UIColor(named: "Light-PrimaryColor") ?? UIColor.yellow
-    var secondaryColor: UIColor = UIColor(named: "Light-SecondaryColor") ?? UIColor.yellow
+    var primaryColor: UIColor = UIColor(named: "Light-PrimaryColor") ?? UIColor.black
+    var secondaryColor: UIColor = UIColor(named: "Light-SecondaryColor") ?? UIColor.black
+    var iron: UIColor = UIColor(named: "Light-Iron") ?? UIColor.black
 }
