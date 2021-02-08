@@ -7,14 +7,14 @@
 
 import UIKit
 
-class RegisterViewController: UIViewController {
+class RegisterViewController: BaseViewController {
 
     @IBOutlet weak var backButtonTopLayoutConstraint: NSLayoutConstraint!
     @IBOutlet weak var contentStackView: UIStackView!
     @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var signUpLabel: UILabel!
     @IBOutlet weak var textFieldsStackView: UIStackView!
-    @IBOutlet weak var fullNameTextFields: UnderLineTextField!
+    @IBOutlet weak var fullNameTextField: UnderLineTextField!
     @IBOutlet weak var emailTextField: UnderLineTextField!
     @IBOutlet weak var passwordTextField: UnderLineTextField!
     @IBOutlet weak var confirmPasswordTextField: UnderLineTextField!
@@ -43,11 +43,19 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func signUpButtonAction(_ sender: UIButton) {
-        
+        let fullName: String? = fullNameTextField.text
+        let email: String? = emailTextField.text
+        let password: String? = passwordTextField.text
+        let confirmPassword: String? = confirmPasswordTextField.text
+        presenter.register(fullName: fullName,
+                           email: email,
+                           password: password,
+                           confirmPassword: confirmPassword)
     }
     
 }
 
+// MARK: - Presenter Delegate
 extension RegisterViewController: RegisterVCView {
-    
+
 }

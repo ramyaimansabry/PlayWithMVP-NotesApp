@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
 
     @IBOutlet weak var contentStackView: UIStackView!
     @IBOutlet weak var signInLabel: UILabel!
@@ -48,7 +48,9 @@ class LoginViewController: UIViewController {
     
     // MARK:- IBActions
     @IBAction func signInButton(_ sender: UIButton) {
-        
+        let email: String? = emailTextField.text
+        let password: String? = passwordTextField.text
+        presenter.signIn(with: email, password: password)
     }
     
     @objc func createAccount(_ sender: UITapGestureRecognizer) {
@@ -56,6 +58,7 @@ class LoginViewController: UIViewController {
     }
 }
 
+// MARK: - Presenter Delegate
 extension LoginViewController: LoginVCView {
     
 }

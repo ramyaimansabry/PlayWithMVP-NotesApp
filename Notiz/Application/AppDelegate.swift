@@ -29,7 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK:- Configurations
     fileprivate func configure(_ application: UIApplication) {
-        configureFirebase()
+//        configureFirebase()
+        FirebaseApp.configure()
         DesignSystem.loadCurrentTheme()
         IHProgressHUD.configure()
         IQKeyboardManager.shared.enable = true

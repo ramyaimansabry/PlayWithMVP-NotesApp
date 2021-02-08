@@ -43,7 +43,6 @@
 		DCE32CED25CEDA6C00D9AD8F /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */; };
 		DCE32CF025CEDB0A00D9AD8F /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */; };
 		DCE32CF425CEDB8400D9AD8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CF325CEDB8400D9AD8F /* Constants.swift */; };
-		DCE32CFF25CEE07A00D9AD8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */; };
 		DCE32D1425CEE1C800D9AD8F /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */; };
 		DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */; };
 		DCE32D1625CEE1C800D9AD8F /* FontsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */; };
@@ -57,6 +56,9 @@
 		DCE5205125D064F400B64ADD /* Notification.Name+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5205025D064F400B64ADD /* Notification.Name+Extention.swift */; };
 		DCE5205725D0655F00B64ADD /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5205625D0655F00B64ADD /* UnderLineTextField.swift */; };
 		DCE5205A25D0659D00B64ADD /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5205925D0659D00B64ADD /* TextFieldEffects.swift */; };
+		DCFB1B5425D16A9900605777 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B5325D16A9900605777 /* BaseViewController.swift */; };
+		DCFB1B5925D16D0400605777 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */; };
+		DCFB1B6025D18B4100605777 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,7 +95,6 @@
 		DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
 		DCE32CF325CEDB8400D9AD8F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsProtocol.swift; sourceTree = "<group>"; };
 		DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsProtocol.swift; sourceTree = "<group>"; };
@@ -107,6 +108,9 @@
 		DCE5205025D064F400B64ADD /* Notification.Name+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extention.swift"; sourceTree = "<group>"; };
 		DCE5205625D0655F00B64ADD /* UnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextField.swift; sourceTree = "<group>"; };
 		DCE5205925D0659D00B64ADD /* TextFieldEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		DCFB1B5325D16A9900605777 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
+		DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,7 +348,7 @@
 		DCE32CCD25CED79800D9AD8F /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */,
+				DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */,
 				DCE32CB625CEBC5700D9AD8F /* Info.plist */,
 			);
 			path = Configurations;
@@ -437,6 +441,8 @@
 		DCE32CF225CEDB6D00D9AD8F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DCFB1B5725D16CEC00605777 /* BaseViewProtocol */,
+				DCFB1B5225D16A8600605777 /* BaseViewController */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -546,6 +552,22 @@
 			path = UnderLineTextField;
 			sourceTree = "<group>";
 		};
+		DCFB1B5225D16A8600605777 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B5325D16A9900605777 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		DCFB1B5725D16CEC00605777 /* BaseViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */,
+			);
+			path = BaseViewProtocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -616,10 +638,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */,
+				DCFB1B6025D18B4100605777 /* GoogleService-Info.plist in Resources */,
 				DC5F857725CF301F00084C72 /* WelcomeViewController.xib in Resources */,
 				DC5F854425CEF74300084C72 /* SplashViewController.xib in Resources */,
 				DCE32CDF25CED87500D9AD8F /* Colors.xcassets in Resources */,
-				DCE32CFF25CEE07A00D9AD8F /* GoogleService-Info.plist in Resources */,
 				DC5F858725CF3ACE00084C72 /* LoginViewController.xib in Resources */,
 				DCE32CB225CEBC5700D9AD8F /* Assets.xcassets in Resources */,
 				DC5F859625CF3B4D00084C72 /* RegisterViewController.xib in Resources */,
@@ -650,12 +672,14 @@
 				DCE32D1D25CEE1C800D9AD8F /* DarkThemeFonts.swift in Sources */,
 				DCE32CA625CEBC5600D9AD8F /* AppDelegate.swift in Sources */,
 				DC5F856125CF106B00084C72 /* UIViewController+Extention.swift in Sources */,
+				DCFB1B5925D16D0400605777 /* BaseViewProtocol.swift in Sources */,
 				DCE5205A25D0659D00B64ADD /* TextFieldEffects.swift in Sources */,
 				DC5F858E25CF3AF400084C72 /* LoginVCInteractor.swift in Sources */,
 				DCE32D1425CEE1C800D9AD8F /* DesignSystem.swift in Sources */,
 				DCE32CB025CEBC5600D9AD8F /* Notiz.xcdatamodeld in Sources */,
 				DC5F857E25CF308500084C72 /* WelcomeVCInteractor.swift in Sources */,
 				DC5F854325CEF74300084C72 /* SplashViewController.swift in Sources */,
+				DCFB1B5425D16A9900605777 /* BaseViewController.swift in Sources */,
 				DC5F853E25CEE4CE00084C72 /* IHProgressHUD+Extention.swift in Sources */,
 				DCE32CF425CEDB8400D9AD8F /* Constants.swift in Sources */,
 				DC5F857625CF301F00084C72 /* WelcomeViewController.swift in Sources */,

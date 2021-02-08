@@ -6,8 +6,20 @@
 //
 
 import Foundation
+import Firebase
 
 
 class LoginVCInteractor {
     
+    func signIn(email: String, password: String, completion: @escaping(_ error: String?) -> ()) {
+        Auth.auth().signIn(withEmail: email, password: password) { (authResult, error) in
+            
+            if let error = error {
+                completion(error.localizedDescription)
+            }
+            else {
+                completion(nil)
+            }
+        }
+    }
 }
