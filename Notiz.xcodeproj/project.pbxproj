@@ -8,9 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		DC5F853E25CEE4CE00084C72 /* IHProgressHUD+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */; };
+		DC5F854325CEF74300084C72 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F854125CEF74300084C72 /* SplashViewController.swift */; };
+		DC5F854425CEF74300084C72 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F854225CEF74300084C72 /* SplashViewController.xib */; };
+		DC5F854825CEF85800084C72 /* SplashVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F854725CEF85800084C72 /* SplashVCInteractor.swift */; };
+		DC5F854C25CEF8E800084C72 /* SplashVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F854B25CEF8E800084C72 /* SplashVCPresenter.swift */; };
+		DC5F855A25CF0C9E00084C72 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F855925CF0C9E00084C72 /* Navigator.swift */; };
+		DC5F855E25CF0E1500084C72 /* NavigatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F855D25CF0E1500084C72 /* NavigatorProtocol.swift */; };
+		DC5F856125CF106B00084C72 /* UIViewController+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F856025CF106B00084C72 /* UIViewController+Extention.swift */; };
+		DC5F857625CF301F00084C72 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F857425CF301F00084C72 /* WelcomeViewController.swift */; };
+		DC5F857725CF301F00084C72 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F857525CF301F00084C72 /* WelcomeViewController.xib */; };
+		DC5F857B25CF307000084C72 /* WelcomeVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F857A25CF307000084C72 /* WelcomeVCPresenter.swift */; };
+		DC5F857E25CF308500084C72 /* WelcomeVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F857D25CF308500084C72 /* WelcomeVCInteractor.swift */; };
+		DC5F858625CF3ACE00084C72 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F858425CF3ACE00084C72 /* LoginViewController.swift */; };
+		DC5F858725CF3ACE00084C72 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F858525CF3ACE00084C72 /* LoginViewController.xib */; };
+		DC5F858B25CF3AE200084C72 /* LoginVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F858A25CF3AE200084C72 /* LoginVCPresenter.swift */; };
+		DC5F858E25CF3AF400084C72 /* LoginVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F858D25CF3AF400084C72 /* LoginVCInteractor.swift */; };
+		DC5F859525CF3B4D00084C72 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F859325CF3B4D00084C72 /* RegisterViewController.swift */; };
+		DC5F859625CF3B4D00084C72 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F859425CF3B4D00084C72 /* RegisterViewController.xib */; };
+		DC5F859A25CF3B6600084C72 /* RegisterVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F859925CF3B6600084C72 /* RegisterVCPresenter.swift */; };
+		DC5F859D25CF3B7A00084C72 /* RegisterVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F859C25CF3B7A00084C72 /* RegisterVCInteractor.swift */; };
+		DC5F85A025CF3D8D00084C72 /* SharedUserDefualts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F859F25CF3D8D00084C72 /* SharedUserDefualts.swift */; };
 		DCE32CA625CEBC5600D9AD8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CA525CEBC5600D9AD8F /* AppDelegate.swift */; };
-		DCE32CAA25CEBC5600D9AD8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CA925CEBC5600D9AD8F /* ViewController.swift */; };
-		DCE32CAD25CEBC5600D9AD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CAB25CEBC5600D9AD8F /* Main.storyboard */; };
 		DCE32CB025CEBC5600D9AD8F /* Notiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CAE25CEBC5600D9AD8F /* Notiz.xcdatamodeld */; };
 		DCE32CB225CEBC5700D9AD8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */; };
 		DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CB325CEBC5700D9AD8F /* LaunchScreen.storyboard */; };
@@ -25,8 +43,6 @@
 		DCE32CED25CEDA6C00D9AD8F /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */; };
 		DCE32CF025CEDB0A00D9AD8F /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */; };
 		DCE32CF425CEDB8400D9AD8F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CF325CEDB8400D9AD8F /* Constants.swift */; };
-		DCE32CF725CEDBDE00D9AD8F /* NotificationObserverNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CF625CEDBDE00D9AD8F /* NotificationObserverNames.swift */; };
-		DCE32CFF25CEE07A00D9AD8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */; };
 		DCE32D1425CEE1C800D9AD8F /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */; };
 		DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */; };
 		DCE32D1625CEE1C800D9AD8F /* FontsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */; };
@@ -37,14 +53,38 @@
 		DCE32D1B25CEE1C800D9AD8F /* DarkThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D1025CEE1C800D9AD8F /* DarkThemeColors.swift */; };
 		DCE32D1C25CEE1C800D9AD8F /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D1125CEE1C800D9AD8F /* DarkTheme.swift */; };
 		DCE32D1D25CEE1C800D9AD8F /* DarkThemeFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32D1325CEE1C800D9AD8F /* DarkThemeFonts.swift */; };
+		DCE5205125D064F400B64ADD /* Notification.Name+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5205025D064F400B64ADD /* Notification.Name+Extention.swift */; };
+		DCE5205725D0655F00B64ADD /* UnderLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5205625D0655F00B64ADD /* UnderLineTextField.swift */; };
+		DCE5205A25D0659D00B64ADD /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE5205925D0659D00B64ADD /* TextFieldEffects.swift */; };
+		DCFB1B5425D16A9900605777 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B5325D16A9900605777 /* BaseViewController.swift */; };
+		DCFB1B5925D16D0400605777 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */; };
+		DCFB1B6025D18B4100605777 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IHProgressHUD+Extention.swift"; sourceTree = "<group>"; };
+		DC5F854125CEF74300084C72 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		DC5F854225CEF74300084C72 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		DC5F854725CEF85800084C72 /* SplashVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVCInteractor.swift; sourceTree = "<group>"; };
+		DC5F854B25CEF8E800084C72 /* SplashVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVCPresenter.swift; sourceTree = "<group>"; };
+		DC5F855925CF0C9E00084C72 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		DC5F855D25CF0E1500084C72 /* NavigatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorProtocol.swift; sourceTree = "<group>"; };
+		DC5F856025CF106B00084C72 /* UIViewController+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extention.swift"; sourceTree = "<group>"; };
+		DC5F857425CF301F00084C72 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DC5F857525CF301F00084C72 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		DC5F857A25CF307000084C72 /* WelcomeVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVCPresenter.swift; sourceTree = "<group>"; };
+		DC5F857D25CF308500084C72 /* WelcomeVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVCInteractor.swift; sourceTree = "<group>"; };
+		DC5F858425CF3ACE00084C72 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DC5F858525CF3ACE00084C72 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DC5F858A25CF3AE200084C72 /* LoginVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCPresenter.swift; sourceTree = "<group>"; };
+		DC5F858D25CF3AF400084C72 /* LoginVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCInteractor.swift; sourceTree = "<group>"; };
+		DC5F859325CF3B4D00084C72 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DC5F859425CF3B4D00084C72 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		DC5F859925CF3B6600084C72 /* RegisterVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVCPresenter.swift; sourceTree = "<group>"; };
+		DC5F859C25CF3B7A00084C72 /* RegisterVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVCInteractor.swift; sourceTree = "<group>"; };
+		DC5F859F25CF3D8D00084C72 /* SharedUserDefualts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedUserDefualts.swift; sourceTree = "<group>"; };
 		DCE32CA225CEBC5600D9AD8F /* Notiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE32CA525CEBC5600D9AD8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCE32CA925CEBC5600D9AD8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DCE32CAC25CEBC5600D9AD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCE32CAF25CEBC5600D9AD8F /* Notiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notiz.xcdatamodel; sourceTree = "<group>"; };
 		DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE32CB425CEBC5700D9AD8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +95,6 @@
 		DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
 		DCE32CF325CEDB8400D9AD8F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		DCE32CF625CEDBDE00D9AD8F /* NotificationObserverNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationObserverNames.swift; sourceTree = "<group>"; };
-		DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DCE32D0225CEE1C800D9AD8F /* DesignSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		DCE32D0425CEE1C800D9AD8F /* ColorsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsProtocol.swift; sourceTree = "<group>"; };
 		DCE32D0525CEE1C800D9AD8F /* FontsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontsProtocol.swift; sourceTree = "<group>"; };
@@ -67,6 +105,12 @@
 		DCE32D1025CEE1C800D9AD8F /* DarkThemeColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkThemeColors.swift; sourceTree = "<group>"; };
 		DCE32D1125CEE1C800D9AD8F /* DarkTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		DCE32D1325CEE1C800D9AD8F /* DarkThemeFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkThemeFonts.swift; sourceTree = "<group>"; };
+		DCE5205025D064F400B64ADD /* Notification.Name+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Extention.swift"; sourceTree = "<group>"; };
+		DCE5205625D0655F00B64ADD /* UnderLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLineTextField.swift; sourceTree = "<group>"; };
+		DCE5205925D0659D00B64ADD /* TextFieldEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		DCFB1B5325D16A9900605777 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
+		DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +129,189 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC5F854025CEF6CB00084C72 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F856325CF15C200084C72 /* Controller */,
+				DC5F856525CF15DB00084C72 /* Presenter */,
+				DC5F856425CF15D100084C72 /* Interactor */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		DC5F855625CF0C7500084C72 /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F855725CF0C8A00084C72 /* Core */,
+				DC5F855825CF0C8F00084C72 /* Models */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		DC5F855725CF0C8A00084C72 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F855925CF0C9E00084C72 /* Navigator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DC5F855825CF0C8F00084C72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F855D25CF0E1500084C72 /* NavigatorProtocol.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC5F856325CF15C200084C72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F854125CEF74300084C72 /* SplashViewController.swift */,
+				DC5F854225CEF74300084C72 /* SplashViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC5F856425CF15D100084C72 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F854725CEF85800084C72 /* SplashVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DC5F856525CF15DB00084C72 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F854B25CEF8E800084C72 /* SplashVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC5F856725CF160B00084C72 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F858325CF3AB800084C72 /* Controller */,
+				DC5F858225CF3AB200084C72 /* Presenter */,
+				DC5F858125CF3AAB00084C72 /* Interactor */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DC5F856825CF161100084C72 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F859225CF3B3600084C72 /* Controller */,
+				DC5F859125CF3B3000084C72 /* Presenter */,
+				DC5F859025CF3B2900084C72 /* Interactor */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		DC5F856925CF161C00084C72 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F856725CF160B00084C72 /* Login */,
+				DC5F856825CF161100084C72 /* Register */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		DC5F856E25CF2FDA00084C72 /* StartScreens */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F854025CEF6CB00084C72 /* Splash */,
+				DC5F857025CF2FEF00084C72 /* Welcome */,
+			);
+			path = StartScreens;
+			sourceTree = "<group>";
+		};
+		DC5F857025CF2FEF00084C72 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F857325CF300B00084C72 /* Controller */,
+				DC5F857225CF300500084C72 /* Presenter */,
+				DC5F857125CF2FFE00084C72 /* Interactor */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		DC5F857125CF2FFE00084C72 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F857D25CF308500084C72 /* WelcomeVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DC5F857225CF300500084C72 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F857A25CF307000084C72 /* WelcomeVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC5F857325CF300B00084C72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F857425CF301F00084C72 /* WelcomeViewController.swift */,
+				DC5F857525CF301F00084C72 /* WelcomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC5F858125CF3AAB00084C72 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F858D25CF3AF400084C72 /* LoginVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DC5F858225CF3AB200084C72 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F858A25CF3AE200084C72 /* LoginVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC5F858325CF3AB800084C72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F858425CF3ACE00084C72 /* LoginViewController.swift */,
+				DC5F858525CF3ACE00084C72 /* LoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC5F859025CF3B2900084C72 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F859C25CF3B7A00084C72 /* RegisterVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DC5F859125CF3B3000084C72 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F859925CF3B6600084C72 /* RegisterVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DC5F859225CF3B3600084C72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F859325CF3B4D00084C72 /* RegisterViewController.swift */,
+				DC5F859425CF3B4D00084C72 /* RegisterViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		DCE32C9925CEBC5600D9AD8F = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +331,15 @@
 		DCE32CA425CEBC5600D9AD8F /* Notiz */ = {
 			isa = PBXGroup;
 			children = (
+				DCE5205425D0653900B64ADD /* Components */,
 				DCE32CF925CEDC2900D9AD8F /* Modules */,
 				DCE32CF225CEDB6D00D9AD8F /* Shared */,
 				DCE32CE325CED8D700D9AD8F /* Extentions */,
 				DCE32CE225CED8A400D9AD8F /* DesignSystem */,
-				DCE32CE125CED89E00D9AD8F /* Helper */,
+				DCE32CE125CED89E00D9AD8F /* Utilities */,
 				DCE32CCF25CED7EC00D9AD8F /* Application */,
 				DCE32CCE25CED7BB00D9AD8F /* Resources */,
 				DCE32CCD25CED79800D9AD8F /* Configurations */,
-				DCE32CAB25CEBC5600D9AD8F /* Main.storyboard */,
 				DCE32CAE25CEBC5600D9AD8F /* Notiz.xcdatamodeld */,
 			);
 			path = Notiz;
@@ -121,7 +348,7 @@
 		DCE32CCD25CED79800D9AD8F /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				DCE32CFE25CEE07A00D9AD8F /* GoogleService-Info.plist */,
+				DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */,
 				DCE32CB625CEBC5700D9AD8F /* Info.plist */,
 			);
 			path = Configurations;
@@ -177,12 +404,14 @@
 			path = Audio;
 			sourceTree = "<group>";
 		};
-		DCE32CE125CED89E00D9AD8F /* Helper */ = {
+		DCE32CE125CED89E00D9AD8F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				DC5F855625CF0C7500084C72 /* Navigator */,
 				DCE32CF325CEDB8400D9AD8F /* Constants.swift */,
+				DC5F859F25CF3D8D00084C72 /* SharedUserDefualts.swift */,
 			);
-			path = Helper;
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		DCE32CE225CED8A400D9AD8F /* DesignSystem */ = {
@@ -203,6 +432,8 @@
 				DCE32CEC25CEDA6C00D9AD8F /* UIColor+Extention.swift */,
 				DCE32CEF25CEDB0A00D9AD8F /* UIView+Extention.swift */,
 				DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */,
+				DC5F856025CF106B00084C72 /* UIViewController+Extention.swift */,
+				DCE5205025D064F400B64ADD /* Notification.Name+Extention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -210,7 +441,8 @@
 		DCE32CF225CEDB6D00D9AD8F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				DCE32CF625CEDBDE00D9AD8F /* NotificationObserverNames.swift */,
+				DCFB1B5725D16CEC00605777 /* BaseViewProtocol */,
+				DCFB1B5225D16A8600605777 /* BaseViewController */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -218,7 +450,8 @@
 		DCE32CF925CEDC2900D9AD8F /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				DCE32CA925CEBC5600D9AD8F /* ViewController.swift */,
+				DC5F856E25CF2FDA00084C72 /* StartScreens */,
+				DC5F856925CF161C00084C72 /* LoginModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -302,6 +535,39 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		DCE5205425D0653900B64ADD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5205525D0654800B64ADD /* UnderLineTextField */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DCE5205525D0654800B64ADD /* UnderLineTextField */ = {
+			isa = PBXGroup;
+			children = (
+				DCE5205925D0659D00B64ADD /* TextFieldEffects.swift */,
+				DCE5205625D0655F00B64ADD /* UnderLineTextField.swift */,
+			);
+			path = UnderLineTextField;
+			sourceTree = "<group>";
+		};
+		DCFB1B5225D16A8600605777 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B5325D16A9900605777 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		DCFB1B5725D16CEC00605777 /* BaseViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */,
+			);
+			path = BaseViewProtocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -372,10 +638,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */,
+				DCFB1B6025D18B4100605777 /* GoogleService-Info.plist in Resources */,
+				DC5F857725CF301F00084C72 /* WelcomeViewController.xib in Resources */,
+				DC5F854425CEF74300084C72 /* SplashViewController.xib in Resources */,
 				DCE32CDF25CED87500D9AD8F /* Colors.xcassets in Resources */,
-				DCE32CFF25CEE07A00D9AD8F /* GoogleService-Info.plist in Resources */,
+				DC5F858725CF3ACE00084C72 /* LoginViewController.xib in Resources */,
 				DCE32CB225CEBC5700D9AD8F /* Assets.xcassets in Resources */,
-				DCE32CAD25CEBC5600D9AD8F /* Main.storyboard in Resources */,
+				DC5F859625CF3B4D00084C72 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,22 +657,41 @@
 			files = (
 				DCE32CED25CEDA6C00D9AD8F /* UIColor+Extention.swift in Sources */,
 				DCE32CE925CED9C800D9AD8F /* UIButton+Extentions.swift in Sources */,
-				DCE32CAA25CEBC5600D9AD8F /* ViewController.swift in Sources */,
+				DC5F85A025CF3D8D00084C72 /* SharedUserDefualts.swift in Sources */,
+				DC5F854C25CEF8E800084C72 /* SplashVCPresenter.swift in Sources */,
 				DCE32D1925CEE1C800D9AD8F /* LightThemeColors.swift in Sources */,
+				DC5F859A25CF3B6600084C72 /* RegisterVCPresenter.swift in Sources */,
+				DC5F855A25CF0C9E00084C72 /* Navigator.swift in Sources */,
+				DC5F858625CF3ACE00084C72 /* LoginViewController.swift in Sources */,
 				DCE32CF025CEDB0A00D9AD8F /* UIView+Extention.swift in Sources */,
+				DC5F854825CEF85800084C72 /* SplashVCInteractor.swift in Sources */,
+				DC5F855E25CF0E1500084C72 /* NavigatorProtocol.swift in Sources */,
+				DC5F858B25CF3AE200084C72 /* LoginVCPresenter.swift in Sources */,
 				DCE32D1A25CEE1C800D9AD8F /* LightThemeFonts.swift in Sources */,
 				DCE32CE525CED8FE00D9AD8F /* String+Extention.swift in Sources */,
 				DCE32D1D25CEE1C800D9AD8F /* DarkThemeFonts.swift in Sources */,
-				DCE32CF725CEDBDE00D9AD8F /* NotificationObserverNames.swift in Sources */,
 				DCE32CA625CEBC5600D9AD8F /* AppDelegate.swift in Sources */,
+				DC5F856125CF106B00084C72 /* UIViewController+Extention.swift in Sources */,
+				DCFB1B5925D16D0400605777 /* BaseViewProtocol.swift in Sources */,
+				DCE5205A25D0659D00B64ADD /* TextFieldEffects.swift in Sources */,
+				DC5F858E25CF3AF400084C72 /* LoginVCInteractor.swift in Sources */,
 				DCE32D1425CEE1C800D9AD8F /* DesignSystem.swift in Sources */,
 				DCE32CB025CEBC5600D9AD8F /* Notiz.xcdatamodeld in Sources */,
+				DC5F857E25CF308500084C72 /* WelcomeVCInteractor.swift in Sources */,
+				DC5F854325CEF74300084C72 /* SplashViewController.swift in Sources */,
+				DCFB1B5425D16A9900605777 /* BaseViewController.swift in Sources */,
 				DC5F853E25CEE4CE00084C72 /* IHProgressHUD+Extention.swift in Sources */,
 				DCE32CF425CEDB8400D9AD8F /* Constants.swift in Sources */,
+				DC5F857625CF301F00084C72 /* WelcomeViewController.swift in Sources */,
 				DCE32D1B25CEE1C800D9AD8F /* DarkThemeColors.swift in Sources */,
 				DCE32D1C25CEE1C800D9AD8F /* DarkTheme.swift in Sources */,
+				DCE5205725D0655F00B64ADD /* UnderLineTextField.swift in Sources */,
 				DCE32D1625CEE1C800D9AD8F /* FontsProtocol.swift in Sources */,
+				DC5F859D25CF3B7A00084C72 /* RegisterVCInteractor.swift in Sources */,
+				DC5F859525CF3B4D00084C72 /* RegisterViewController.swift in Sources */,
 				DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */,
+				DC5F857B25CF307000084C72 /* WelcomeVCPresenter.swift in Sources */,
+				DCE5205125D064F400B64ADD /* Notification.Name+Extention.swift in Sources */,
 				DCE32D1825CEE1C800D9AD8F /* LightTheme.swift in Sources */,
 				DCE32D1725CEE1C800D9AD8F /* ThemeProtocol.swift in Sources */,
 			);
@@ -412,14 +700,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DCE32CAB25CEBC5600D9AD8F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DCE32CAC25CEBC5600D9AD8F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DCE32CB325CEBC5700D9AD8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

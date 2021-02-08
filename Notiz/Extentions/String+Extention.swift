@@ -27,4 +27,12 @@ extension String {
         let regex = try! NSRegularExpression(pattern: ".*[A-Z]+.*")
         return regex.firstMatch(in: self, options: [], range: NSRange(location: 0, length: count)) != nil
     }
+    
+    var IsValidString: Bool {
+        return !trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+    
+    var removeSpaces: String? {
+        return trimmingCharacters(in: .whitespacesAndNewlines)
+    }
 }

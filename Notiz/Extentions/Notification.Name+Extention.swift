@@ -1,8 +1,8 @@
 //
-//  NotificationObserverNames.swift
+//  Notification.Name+Extention.swift
 //  Notiz
 //
-//  Created by Ramy Sabry on 06/02/2021.
+//  Created by Ramy Sabry on 07/02/2021.
 //
 
 import Foundation
