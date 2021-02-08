@@ -10,6 +10,13 @@
 		DC3BB6DB25D1E32300B290F6 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BB6D925D1E32300B290F6 /* NoteCell.swift */; };
 		DC3BB6DC25D1E32300B290F6 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3BB6DA25D1E32300B290F6 /* NoteCell.xib */; };
 		DC3BB6DF25D1E54A00B290F6 /* UITableViewCell+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BB6DE25D1E54A00B290F6 /* UITableViewCell+Extention.swift */; };
+		DC3BB6E425D1F36D00B290F6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BB6E325D1F36D00B290F6 /* FirebaseAnalytics */; };
+		DC3BB6E625D1F36D00B290F6 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BB6E525D1F36D00B290F6 /* FirebaseFirestoreSwift-Beta */; };
+		DC3BB6E825D1F36D00B290F6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BB6E725D1F36D00B290F6 /* FirebaseAuth */; };
+		DC3BB6EA25D1F36D00B290F6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DC3BB6E925D1F36D00B290F6 /* FirebaseFirestore */; };
+		DC3BB6ED25D1F71900B290F6 /* DateFormatterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BB6EC25D1F71900B290F6 /* DateFormatterManager.swift */; };
+		DC3BB6F025D1FD8F00B290F6 /* CreateNoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BB6EF25D1FD8F00B290F6 /* CreateNoteModel.swift */; };
+		DC3BB6F325D1FED600B290F6 /* Encodable+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BB6F225D1FED600B290F6 /* Encodable+Extention.swift */; };
 		DC5F853E25CEE4CE00084C72 /* IHProgressHUD+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */; };
 		DC5F854325CEF74300084C72 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F854125CEF74300084C72 /* SplashViewController.swift */; };
 		DC5F854425CEF74300084C72 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F854225CEF74300084C72 /* SplashViewController.xib */; };
@@ -38,9 +45,6 @@
 		DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CB325CEBC5700D9AD8F /* LaunchScreen.storyboard */; };
 		DCE32CBF25CEC45900D9AD8F /* IHProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CBE25CEC45900D9AD8F /* IHProgressHUD */; };
 		DCE32CC325CEC4BE00D9AD8F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC225CEC4BE00D9AD8F /* IQKeyboardManagerSwift */; };
-		DCE32CC725CED62700D9AD8F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */; };
-		DCE32CC925CED62700D9AD8F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CC825CED62700D9AD8F /* FirebaseAuth */; };
-		DCE32CCB25CED62700D9AD8F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */; };
 		DCE32CDF25CED87500D9AD8F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE32CDE25CED87500D9AD8F /* Colors.xcassets */; };
 		DCE32CE525CED8FE00D9AD8F /* String+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CE425CED8FE00D9AD8F /* String+Extention.swift */; };
 		DCE32CE925CED9C800D9AD8F /* UIButton+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE32CE825CED9C800D9AD8F /* UIButton+Extentions.swift */; };
@@ -78,6 +82,9 @@
 		DC3BB6D925D1E32300B290F6 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		DC3BB6DA25D1E32300B290F6 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
 		DC3BB6DE25D1E54A00B290F6 /* UITableViewCell+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extention.swift"; sourceTree = "<group>"; };
+		DC3BB6EC25D1F71900B290F6 /* DateFormatterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterManager.swift; sourceTree = "<group>"; };
+		DC3BB6EF25D1FD8F00B290F6 /* CreateNoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNoteModel.swift; sourceTree = "<group>"; };
+		DC3BB6F225D1FED600B290F6 /* Encodable+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extention.swift"; sourceTree = "<group>"; };
 		DC5F853D25CEE4CE00084C72 /* IHProgressHUD+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IHProgressHUD+Extention.swift"; sourceTree = "<group>"; };
 		DC5F854125CEF74300084C72 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		DC5F854225CEF74300084C72 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
@@ -145,10 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE32CBF25CEC45900D9AD8F /* IHProgressHUD in Frameworks */,
+				DC3BB6E825D1F36D00B290F6 /* FirebaseAuth in Frameworks */,
+				DC3BB6E625D1F36D00B290F6 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				DCE32CC325CEC4BE00D9AD8F /* IQKeyboardManagerSwift in Frameworks */,
-				DCE32CC725CED62700D9AD8F /* FirebaseAnalytics in Frameworks */,
-				DCE32CCB25CED62700D9AD8F /* FirebaseFirestore in Frameworks */,
-				DCE32CC925CED62700D9AD8F /* FirebaseAuth in Frameworks */,
+				DC3BB6E425D1F36D00B290F6 /* FirebaseAnalytics in Frameworks */,
+				DC3BB6EA25D1F36D00B290F6 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +366,7 @@
 			isa = PBXGroup;
 			children = (
 				DC9F7C5A25D1D169005022A2 /* NoteModel.swift */,
+				DC3BB6EF25D1FD8F00B290F6 /* CreateNoteModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -479,6 +488,7 @@
 			children = (
 				DCE32CF325CEDB8400D9AD8F /* Constants.swift */,
 				DC5F859F25CF3D8D00084C72 /* SharedUserDefualts.swift */,
+				DC3BB6EC25D1F71900B290F6 /* DateFormatterManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -504,6 +514,7 @@
 				DC5F856025CF106B00084C72 /* UIViewController+Extention.swift */,
 				DCE5205025D064F400B64ADD /* Notification.Name+Extention.swift */,
 				DC3BB6DE25D1E54A00B290F6 /* UITableViewCell+Extention.swift */,
+				DC3BB6F225D1FED600B290F6 /* Encodable+Extention.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -738,9 +749,10 @@
 			packageProductDependencies = (
 				DCE32CBE25CEC45900D9AD8F /* IHProgressHUD */,
 				DCE32CC225CEC4BE00D9AD8F /* IQKeyboardManagerSwift */,
-				DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */,
-				DCE32CC825CED62700D9AD8F /* FirebaseAuth */,
-				DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */,
+				DC3BB6E325D1F36D00B290F6 /* FirebaseAnalytics */,
+				DC3BB6E525D1F36D00B290F6 /* FirebaseFirestoreSwift-Beta */,
+				DC3BB6E725D1F36D00B290F6 /* FirebaseAuth */,
+				DC3BB6E925D1F36D00B290F6 /* FirebaseFirestore */,
 			);
 			productName = Notiz;
 			productReference = DCE32CA225CEBC5600D9AD8F /* Notiz.app */;
@@ -772,7 +784,7 @@
 			packageReferences = (
 				DCE32CBD25CEC45900D9AD8F /* XCRemoteSwiftPackageReference "IHProgressHUD" */,
 				DCE32CC125CEC4BE00D9AD8F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
-				DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DC3BB6E225D1F36D00B290F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = DCE32CA325CEBC5600D9AD8F /* Products */;
 			projectDirPath = "";
@@ -827,6 +839,8 @@
 				DC5F855E25CF0E1500084C72 /* NavigatorProtocol.swift in Sources */,
 				DC5F858B25CF3AE200084C72 /* LoginVCPresenter.swift in Sources */,
 				DCFB1B8725D1B54C00605777 /* CreateNoteViewController.swift in Sources */,
+				DC3BB6F325D1FED600B290F6 /* Encodable+Extention.swift in Sources */,
+				DC3BB6F025D1FD8F00B290F6 /* CreateNoteModel.swift in Sources */,
 				DCFB1B7125D1992500605777 /* HomeVCInteractor.swift in Sources */,
 				DCE32D1A25CEE1C800D9AD8F /* LightThemeFonts.swift in Sources */,
 				DCE32CE525CED8FE00D9AD8F /* String+Extention.swift in Sources */,
@@ -851,6 +865,7 @@
 				DC5F859D25CF3B7A00084C72 /* RegisterVCInteractor.swift in Sources */,
 				DC5F859525CF3B4D00084C72 /* RegisterViewController.swift in Sources */,
 				DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */,
+				DC3BB6ED25D1F71900B290F6 /* DateFormatterManager.swift in Sources */,
 				DCFB1B8325D1B52B00605777 /* CreateNoteVCPresenter.swift in Sources */,
 				DCFB1B6A25D198C900605777 /* HomeViewController.swift in Sources */,
 				DC5F857B25CF307000084C72 /* WelcomeVCPresenter.swift in Sources */,
@@ -1059,6 +1074,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DC3BB6E225D1F36D00B290F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.5.1;
+			};
+		};
 		DCE32CBD25CEC45900D9AD8F /* XCRemoteSwiftPackageReference "IHProgressHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AsadAzam/IHProgressHUD.git";
@@ -1075,17 +1098,29 @@
 				minimumVersion = 6.5.6;
 			};
 		};
-		DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.5.1;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DC3BB6E325D1F36D00B290F6 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BB6E225D1F36D00B290F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DC3BB6E525D1F36D00B290F6 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BB6E225D1F36D00B290F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		DC3BB6E725D1F36D00B290F6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BB6E225D1F36D00B290F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DC3BB6E925D1F36D00B290F6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC3BB6E225D1F36D00B290F6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
 		DCE32CBE25CEC45900D9AD8F /* IHProgressHUD */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DCE32CBD25CEC45900D9AD8F /* XCRemoteSwiftPackageReference "IHProgressHUD" */;
@@ -1095,21 +1130,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DCE32CC125CEC4BE00D9AD8F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
-		};
-		DCE32CC625CED62700D9AD8F /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		DCE32CC825CED62700D9AD8F /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		DCE32CCA25CED62700D9AD8F /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DCE32CC525CED62600D9AD8F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 

@@ -57,7 +57,7 @@ extension HomeViewController: HomeVCView {
 
 // MARK:- CreateNewNote Delegate
 extension HomeViewController: CreateNoteDelegate {
-    func onAddingNewNote(note: String) {
+    func onAddingNewNote(note: NoteModel) {
         presenter.newNoteCreated(note: note)
     }
 }
@@ -103,7 +103,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource, UITabl
 
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if (editingStyle == .delete) {
-            
+            presenter.deleteNote(with: indexPath)
         }
     }
 }

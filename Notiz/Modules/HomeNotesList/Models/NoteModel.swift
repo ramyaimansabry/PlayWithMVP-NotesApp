@@ -6,12 +6,20 @@
 //
 
 import Foundation
+import FirebaseFirestoreSwift
 
 
-class NoteModel {
+class NoteModel: Codable {
+    @DocumentID var id: String?
     var note: String
+    var creationDate: String
     
-    init(note: String) {
+    init(id: String?, note: String, creationDate: String) {
         self.note = note
+        self.id = id
+        self.creationDate = creationDate
     }
 }
+
+
+

@@ -8,7 +8,7 @@
 import UIKit
 
 protocol CreateNoteDelegate: class {
-    func onAddingNewNote(note: String)
+    func onAddingNewNote(note: NoteModel)
 }
 
 class CreateNoteViewController: BaseViewController {
@@ -25,6 +25,7 @@ class CreateNoteViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViews()
+        presenter.viewDidLoad()
     }
 
     fileprivate func configureViews() {
@@ -53,6 +54,10 @@ class CreateNoteViewController: BaseViewController {
 extension CreateNoteViewController: CreateNoteVCView {
     func dismissView() {
         dismiss(animated: true, completion: nil)
+    }
+    
+    func setDateLabel(to text: String) {
+        subTitleLabel.text = text
     }
 }
 

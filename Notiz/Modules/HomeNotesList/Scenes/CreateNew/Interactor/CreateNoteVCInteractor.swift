@@ -10,19 +10,21 @@ import Firebase
 
 
 class CreateNoteVCInteractor {
-    func saveNewNote(note: String, completion: @escaping(_ error: String?) -> ()) {
+    func saveNewNote(with createNoteObject: CreateNoteModel, completion: @escaping(_ error: String?, _ newDocumentId: String?) -> ()) {
         guard let userUid = Auth.auth().currentUser?.uid else {
-            completion("Unexpected error happend, please call customer support")
+            completion("Unexpected error happend, please call customer support", nil)
             return
         }
+        guard let dateDic: [String: Any] = createNoteObject.dict else { return }
         let db = Firestore.firestore()
-        
-        db.collection("notes").document(userUid).collection("stringNotes").addDocument(data: ["note": note]) { (error) in
+        let newDocument = db.collection("notes").document(userUid).collection("stringNotes").document()
+        newDocument.setData(dateDic, merge: false) { (error) in
+            
             if let error = error {
-                completion(error.localizedDescription)
+                completion(error.localizedDescription, nil)
             }
             else {
-                completion(nil)
+                completion(nil, newDocument.documentID)
             }
         }
     }
