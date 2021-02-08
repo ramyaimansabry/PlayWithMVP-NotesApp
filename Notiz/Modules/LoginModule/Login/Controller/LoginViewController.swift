@@ -60,5 +60,7 @@ class LoginViewController: BaseViewController {
 
 // MARK: - Presenter Delegate
 extension LoginViewController: LoginVCView {
-    
+    func navigateToHomeListScreen() {
+        Navigator.navigate(form: self, to: .homeList, with: .present(transitionStyle: .coverVertical), animated: true)
+    }
 }

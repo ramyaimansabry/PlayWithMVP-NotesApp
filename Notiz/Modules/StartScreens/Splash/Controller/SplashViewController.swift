@@ -34,6 +34,6 @@ extension SplashViewController: SplashView {
     }
     
     func navigateToHomeScreen() {
-        
+        Navigator.navigate(form: self, to: .homeList, with: .present(transitionStyle: .crossDissolve), animated: true)
     }
 }

@@ -59,6 +59,11 @@
 		DCFB1B5425D16A9900605777 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B5325D16A9900605777 /* BaseViewController.swift */; };
 		DCFB1B5925D16D0400605777 /* BaseViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */; };
 		DCFB1B6025D18B4100605777 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */; };
+		DCFB1B6A25D198C900605777 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B6825D198C900605777 /* HomeViewController.swift */; };
+		DCFB1B6B25D198C900605777 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCFB1B6925D198C900605777 /* HomeViewController.xib */; };
+		DCFB1B6E25D198F100605777 /* HomeVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B6D25D198F100605777 /* HomeVCPresenter.swift */; };
+		DCFB1B7125D1992500605777 /* HomeVCInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFB1B7025D1992500605777 /* HomeVCInteractor.swift */; };
+		DCFB1B7425D1ACCF00605777 /* appLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCFB1B7325D1ACCF00605777 /* appLogo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +116,11 @@
 		DCFB1B5325D16A9900605777 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DCFB1B5825D16D0400605777 /* BaseViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewProtocol.swift; sourceTree = "<group>"; };
 		DCFB1B5F25D18B4100605777 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCFB1B6825D198C900605777 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DCFB1B6925D198C900605777 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DCFB1B6D25D198F100605777 /* HomeVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCPresenter.swift; sourceTree = "<group>"; };
+		DCFB1B7025D1992500605777 /* HomeVCInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCInteractor.swift; sourceTree = "<group>"; };
+		DCFB1B7325D1ACCF00605777 /* appLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appLogo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +387,7 @@
 		DCE32CD225CED83800D9AD8F /* Images-GIFs */ = {
 			isa = PBXGroup;
 			children = (
+				DCFB1B7325D1ACCF00605777 /* appLogo.jpeg */,
 				DCE32CB125CEBC5700D9AD8F /* Assets.xcassets */,
 			);
 			path = "Images-GIFs";
@@ -452,6 +463,7 @@
 			children = (
 				DC5F856E25CF2FDA00084C72 /* StartScreens */,
 				DC5F856925CF161C00084C72 /* LoginModule */,
+				DCFB1B6325D1983200605777 /* HomeNotesList */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -568,6 +580,49 @@
 			path = BaseViewProtocol;
 			sourceTree = "<group>";
 		};
+		DCFB1B6325D1983200605777 /* HomeNotesList */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B6425D1984200605777 /* HomeList */,
+			);
+			path = HomeNotesList;
+			sourceTree = "<group>";
+		};
+		DCFB1B6425D1984200605777 /* HomeList */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B6725D1985E00605777 /* Controller */,
+				DCFB1B6625D1985500605777 /* Presenter */,
+				DCFB1B6525D1984E00605777 /* Interactor */,
+			);
+			path = HomeList;
+			sourceTree = "<group>";
+		};
+		DCFB1B6525D1984E00605777 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B7025D1992500605777 /* HomeVCInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		DCFB1B6625D1985500605777 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B6D25D198F100605777 /* HomeVCPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		DCFB1B6725D1985E00605777 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCFB1B6825D198C900605777 /* HomeViewController.swift */,
+				DCFB1B6925D198C900605777 /* HomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -637,6 +692,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFB1B7425D1ACCF00605777 /* appLogo.jpeg in Resources */,
 				DCE32CB525CEBC5700D9AD8F /* LaunchScreen.storyboard in Resources */,
 				DCFB1B6025D18B4100605777 /* GoogleService-Info.plist in Resources */,
 				DC5F857725CF301F00084C72 /* WelcomeViewController.xib in Resources */,
@@ -645,6 +701,7 @@
 				DC5F858725CF3ACE00084C72 /* LoginViewController.xib in Resources */,
 				DCE32CB225CEBC5700D9AD8F /* Assets.xcassets in Resources */,
 				DC5F859625CF3B4D00084C72 /* RegisterViewController.xib in Resources */,
+				DCFB1B6B25D198C900605777 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +724,7 @@
 				DC5F854825CEF85800084C72 /* SplashVCInteractor.swift in Sources */,
 				DC5F855E25CF0E1500084C72 /* NavigatorProtocol.swift in Sources */,
 				DC5F858B25CF3AE200084C72 /* LoginVCPresenter.swift in Sources */,
+				DCFB1B7125D1992500605777 /* HomeVCInteractor.swift in Sources */,
 				DCE32D1A25CEE1C800D9AD8F /* LightThemeFonts.swift in Sources */,
 				DCE32CE525CED8FE00D9AD8F /* String+Extention.swift in Sources */,
 				DCE32D1D25CEE1C800D9AD8F /* DarkThemeFonts.swift in Sources */,
@@ -690,9 +748,11 @@
 				DC5F859D25CF3B7A00084C72 /* RegisterVCInteractor.swift in Sources */,
 				DC5F859525CF3B4D00084C72 /* RegisterViewController.swift in Sources */,
 				DCE32D1525CEE1C800D9AD8F /* ColorsProtocol.swift in Sources */,
+				DCFB1B6A25D198C900605777 /* HomeViewController.swift in Sources */,
 				DC5F857B25CF307000084C72 /* WelcomeVCPresenter.swift in Sources */,
 				DCE5205125D064F400B64ADD /* Notification.Name+Extention.swift in Sources */,
 				DCE32D1825CEE1C800D9AD8F /* LightTheme.swift in Sources */,
+				DCFB1B6E25D198F100605777 /* HomeVCPresenter.swift in Sources */,
 				DCE32D1725CEE1C800D9AD8F /* ThemeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

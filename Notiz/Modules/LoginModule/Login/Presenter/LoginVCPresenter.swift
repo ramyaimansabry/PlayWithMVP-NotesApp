@@ -8,7 +8,7 @@
 import Foundation
 
 protocol LoginVCView: BaseViewProtocol {
-    
+    func navigateToHomeListScreen()
 }
 
 class LoginVCPresenter {
@@ -33,14 +33,15 @@ class LoginVCPresenter {
                     self.view?.presentAlert(title: "Error", message: error)
                 }
                 else {
-                    // Registration successfull
-                    
-                    
-                    print("Registration successfull")
-                    
+                    self.userLoggedInSuccessfully()
                 }
             }
         }
+    }
+    
+    private func userLoggedInSuccessfully() {
+        SharedUserDefualts.isUserLoggedIn.setValue(value: true)
+        view?.navigateToHomeListScreen()
     }
     
     // MARK:- Validations

@@ -9,7 +9,7 @@ import Foundation
 
 
 protocol RegisterVCView: BaseViewProtocol {
-    
+    func navigateToHomeListScreen()
 }
 
 class RegisterVCPresenter {
@@ -36,14 +36,15 @@ class RegisterVCPresenter {
                     self.view?.presentAlert(title: "Error", message: error)
                 }
                 else {
-                    // Registration successfull
-                    
-                    
-                    print("Registration successfull")
-                    
+                    self.userRegisteredSuccessfully()
                 }
             }
         }
+    }
+    
+    private func userRegisteredSuccessfully() {
+        SharedUserDefualts.isUserLoggedIn.setValue(value: true)
+        view?.navigateToHomeListScreen()
     }
     
     // MARK:- Validations

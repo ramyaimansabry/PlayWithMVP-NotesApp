@@ -57,5 +57,7 @@ class RegisterViewController: BaseViewController {
 
 // MARK: - Presenter Delegate
 extension RegisterViewController: RegisterVCView {
-
+    func navigateToHomeListScreen() {
+        Navigator.navigate(form: self, to: .homeList, with: .present(transitionStyle: .coverVertical), animated: true)
+    }
 }

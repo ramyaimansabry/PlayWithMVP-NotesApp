@@ -12,6 +12,7 @@ enum Destination {
     case welcomeScreen
     case login
     case register
+    case homeList
 }
 
 class Navigator: NavigatorProtocol {
@@ -29,6 +30,9 @@ class Navigator: NavigatorProtocol {
             return viewController
         case .register:
             let viewController = RegisterViewController.loadFromNib()
+            return viewController
+        case .homeList:
+            let viewController = HomeViewController.loadFromNib()
             return viewController
         }
     }
