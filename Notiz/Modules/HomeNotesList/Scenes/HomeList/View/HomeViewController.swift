@@ -9,6 +9,8 @@ import UIKit
 
 class HomeViewController: BaseViewController {
 
+    @IBOutlet weak var emptyNotesView: UIView!
+    @IBOutlet weak var emptyItemsImage: UIImageView!
     @IBOutlet weak var listTableView: UITableView!
     @IBOutlet weak var createNewNoteButton: UIButton!
     
@@ -24,11 +26,12 @@ class HomeViewController: BaseViewController {
         navigationController?.isNavigationBarHidden = false
         navigationController?.navigationBar.topItem?.title = "Notes"
         navigationController?.navigationBar.prefersLargeTitles = true
-        
-        
         view.backgroundColor = UIColor.white
         createNewNoteButton.setShadow(withCornerRadius: 25)
         createNewNoteButton.setTitleColor(UIColor.gray, for: .highlighted)
+        emptyNotesView.backgroundColor = UIColor.clear
+        emptyNotesView.isHidden = true
+        emptyItemsImage.image = UIImage(named: "emptyListImage3")
         configureListTableView()
     }
     
@@ -51,6 +54,10 @@ extension HomeViewController: HomeVCView {
             guard let self = self else { return }
             self.listTableView.reloadData()
         }
+    }
+    
+    func changeEmptyNotesApperance(hidden: Bool) {
+        emptyNotesView.isHidden = hidden
     }
 }
 

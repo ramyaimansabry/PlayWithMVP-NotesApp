@@ -11,6 +11,7 @@ import Foundation
 protocol HomeVCView: BaseViewProtocol {
     func presentCreateNewNoteScreen()
     func reloadListTableView()
+    func changeEmptyNotesApperance(hidden: Bool)
 }
 
 protocol NoteCellViewProtocol {
@@ -42,6 +43,7 @@ class HomeVCPresenter {
             else {
                 self.notes.append(contentsOf: notes)
                 self.view?.reloadListTableView()
+                self.checkNotesCount()
             }
         }
     }
@@ -49,6 +51,7 @@ class HomeVCPresenter {
     func newNoteCreated(note: NoteModel) {
         notes.insert(note, at: 0)
         view?.reloadListTableView()
+        checkNotesCount()
     }
     
     func deleteNote(with indexPath: IndexPath) {
@@ -65,9 +68,15 @@ class HomeVCPresenter {
                 else {
                     self.notes.remove(at: indexPath.row)
                     self.view?.reloadListTableView()
+                    self.checkNotesCount()
                 }
             }
         }
+    }
+    
+    private func checkNotesCount() {
+        let isEmptyNotes: Bool = (notes.count != 0)
+        view?.changeEmptyNotesApperance(hidden: isEmptyNotes)
     }
     
     func getNotesCount() -> Int {
